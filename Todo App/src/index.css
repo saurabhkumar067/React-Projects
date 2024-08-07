@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #ce9c9c;
+}
+
+.bgColor{
+    background:#ad8c8ce8;
+}
+
+@media (max-width:790px) {
+    .width{
+        width:50%;
+    }
+}
+@media (max-width:520px) {
+    .width{
+        width:75%;
+    }
+}
+@media (max-width:350px) {
+    .width{
+        width:100%;
+    }
+}
