@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #ce9c9c;
+}
+
+.font-cursive{
+    font-family:cursive;
+}
+.bg-color{
+    background: rgb(121 128 139);
+}
+.shadows{
+    box-shadow: 0px 0px 20px #b1b6c9;
+}
+.color{
+    color: #4e4d4d;
+}
+.colorss{
+    color:#686767;
+}
+.bgColors{
+    background: #7e5454d1;
+}
+
+@media (max-width:1000px){
+    #responsive{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width:600px){
+    #responsive{
+        grid-template-columns:repeat(1, minmax(0, 1fr));
+    }
+    #inputbox{
+        width:50%;
+    }
+}
