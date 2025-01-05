@@ -15,7 +15,7 @@ function LandingPage() {
                     initial={{ width: 0 }}
                     animate={{ width: "8vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className="w-[8vw] h-[5vw] rounded-md relative bg-yellow-300 mr-[1vw]"
+                    className="w-[8vw] h-[5vw] rounded-md relative bg-[url(https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg)] bg-no-repeat bg-center bg-cover mr-[1vw]"
                   ></motion.div>
                 )}
                 <h1 className="uppercase -mb-[.5vw] leading-[6.5vw] tracking-tighter font-medium text-[7.5vw] font-['Founders_Grotesk_X-Condensed']">
